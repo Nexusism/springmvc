@@ -16,8 +16,10 @@ public class LogTestController {
 
         log.trace("info trace ={}", name);
         log.debug("info debug ={}", name);
-        log.
         log.info("info log ={}", name);
+        log.warn(" warn log={}", name);
+        log.error(" error log={}", name);
+
         return "ok";
     }
 }
